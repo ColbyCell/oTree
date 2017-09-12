@@ -130,6 +130,11 @@ SESSION_CONFIG_DEFAULTS = {
 }
 
 SESSION_CONFIGS = [
+   {    'name': 'wardecker_test',
+        'display_name': "Wardecker Test",
+        'num_demo_participants': 2,
+	'app_sequence': [wardecker_test', 'payment_info'],
+    },
     {
         'name': 'public_goods',
         'display_name': "Public Goods",
